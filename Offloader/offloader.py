@@ -70,7 +70,7 @@ def train_scenario(env, agents):
     start_up = 1000
 
 # !!!!!!!!!
-    n_time_steps = 501000 # For 10^-3 precision -> ~10^5 sample points
+    n_time_steps = 301000 # For 10^-3 precision -> ~10^5 sample points
     # Number of last episodes to use for average reward calculation
     averaging_window = 10000
     x_axis = range(1, start_up+n_time_steps+1) # X axis for ploting results
@@ -499,7 +499,7 @@ if(__name__ == "__main__"):
     # Algorithms to be used
     # alg = ['DDQN','SARSA']
     # alg = ['NSQ2','NSQ5','NSQ10']
-    alg = ['A3C']
+    # alg = ['A3C']
     # alg = ['DQN','DDQN','NSQ10','PPO']
     # alg = ['A3C','_DQN','DDQN','NSQ10','PPO','SARSA','TRPO','PAL','_DQN_']
     #DQN_  DQNPER  _DQN_UI4
@@ -508,7 +508,7 @@ if(__name__ == "__main__"):
     # alg = ['NSQ5_']
     #alg = ['PS-DOUBLEIQNNOISY','PS-UNIFORMDOUBLEIQNNOISY','PS-TIMEDOUBLEIQNNOISY']
     #alg = ['PS-TIMEDOUBLEIQNNOISY','PPO','PS-DDQN','PS-DOUBLEIQNNOISY']
-    #alg = ['PS-TIMEDOUBLEIQNNOISY']
+    alg = ['PS-TIMEDOUBLEIQNNOISY'，'DQN'’]
     #alg = ['DDQN']
     #alg = ['PPO']
     #alg = ['A3CFF','A3CFC','PSDDQNNOISE','DDQN','DQN_','PS-DDQN']

@@ -230,7 +230,7 @@ def create_agent(
         raise KeyboardInterrupt(
             'Error while creating agent: Epsilon type invalid')
     # print(alg)
-    if(alg in 'DDQN'):
+    if(alg in 'D_D_Q_N'):
         # Q function instanciation
         q_func = QFunction(obs_size, n_actions)
         
@@ -280,7 +280,7 @@ def create_agent(
         opt.setup(q_func)
         # Exploration & agent info
         if(exp_type in 'constant'):
-            agent_info = ('DQN - ' + 'Constant ' + chr(949) + '=' +
+            agent_info = ('正常的DQN - ' + 'Constant ' + chr(949) + '=' +
                           str(epsilon) + ' (' + chr(947) + '=' + str(gamma) +
                           ')')
             explorer = chainerrl.explorers.ConstantEpsilonGreedy(
