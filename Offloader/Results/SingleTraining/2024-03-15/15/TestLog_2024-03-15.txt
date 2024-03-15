@@ -1,0 +1,11 @@
+Experiment Log - 2024-03-15 20:51:20.628591
+
+Network topology: Branchless network
+Vehicles in network: 20
+Error variance: 0
+---------------------------------------------------
+
+---TRAINING---
+--Batch 0 in training...
+--Agent 0 in training...
+--------PPO --------

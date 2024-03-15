@@ -1,0 +1,131 @@
+Experiment Log - 2024-03-15 18:20:10.190862
+
+Network topology: Valladolid's network
+Vehicles in network: 20
+Error variance: 0
+---------------------------------------------------
+
+---TRAINING---
+--Batch 0 in training...
+--Agent 0 in training...
+--------DDQN with PER Constant ε=0.1 (γ=0.995)--------
+Time step 1000
+Application queued/processed succesfully
+Core reservation time: [0.9274     0.9657     0.9262706  0.95066667 0.9994     0.9994
+ 0.99916667 1.         0.9994     0.9994     1.         1.
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 2000
+Application queued/processed succesfully
+Core reservation time: [0.96173334 0.94273335 0.95246667 0.9717     0.99916667 0.9994
+ 0.9988     0.9994     0.9994     0.9994     0.9994     1.
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 3000
+Application queued/processed succesfully
+Core reservation time: [0.95336664 0.9532     0.9553667  0.94336665 0.9985     0.9985
+ 0.9994     1.         0.99916667 1.         0.9994     0.9994
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 4000
+Failed to queue/process the application
+Core reservation time: [0.9652333  0.97583336 0.9529     0.956      1.         0.9994
+ 1.         1.         0.9988     0.9988     0.9994     0.9988
+ 1.        ]
+Next application: 5
+From vehicle node: 5
+Application info: [0.         0.80851066 0.872      0.75      ]
+Delay prediction: [0.       0.       0.       0.       0.981982]
+Time step 5000
+Application queued/processed succesfully
+Core reservation time: [0.9497     0.9461333  0.94063    0.9402     0.9988     0.9985667
+ 0.9988     0.9979     0.9985     1.         1.         0.99916667
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 6000
+Application queued/processed succesfully
+Core reservation time: [0.9565     0.93086666 0.93186665 0.94093335 0.9994     0.9994
+ 0.9994     0.9994     0.9994     0.9994     0.9994     0.9988
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+--Batch 1 in training...
+--Agent 0 in training...
+--------SARSA - Constant ε=0.1 (γ=0.995)--------
+Time step 1000
+Application queued/processed succesfully
+Core reservation time: [0.9994     0.9985     1.         1.         0.997      0.99773335
+ 0.9985     0.9957     0.9985667  0.9988     0.9994     0.9994
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 2000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.9994     0.9994     1.         0.99766666 0.99766666
+ 0.99833333 0.9969     0.9988     0.9988     0.9994     0.99916667
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 3000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.9994     0.9994     0.9994     0.9994     0.99916667
+ 0.9985667  0.99916667 1.         1.         1.         0.9994
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 4000
+Application queued/processed succesfully
+Core reservation time: [0.9994     0.99916667 0.9994     0.9985     0.9985667  0.9985
+ 0.99736667 0.99833333 0.9994     1.         1.         1.
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 5000
+Application queued/processed succesfully
+Core reservation time: [0.9994     0.9994     1.         1.         0.9985     0.9975
+ 0.9975     0.99736667 0.9994     0.9994     0.9985     0.9988
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 6000
+Application queued/processed succesfully
+Core reservation time: [1.         1.         1.         1.         0.9969     0.99766666
+ 0.9975     0.99593335 0.9985     0.9976     0.99916667 0.99796665
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+
+--Average agent processing times(only act_and_train time):
+DDQN with PER Constant ε=0.1 (γ=0.995): 4.0994040966033936s
+SARSA - Constant ε=0.1 (γ=0.995): 3.7566611766815186s
+
+--Average training times(total time):
+DDQN with PER Constant ε=0.1 (γ=0.995): 14.068296670913696s
+SARSA - Constant ε=0.1 (γ=0.995): 13.600839614868164s
+NOTE: The training time takes into account some data collecting!

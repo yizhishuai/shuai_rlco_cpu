@@ -306,8 +306,8 @@ def create_agent(
         
         # Agent (DQN)
         agent = chainerrl.agents.DQN(q_function=q_func, optimizer=opt, replay_buffer=replay_buffer, gamma=gamma, explorer=explorer, 
-                gpu=None, replay_start_size=100000, 
-                update_interval=1, target_update_interval=50000)
+                gpu=None, replay_start_size=200000, 
+                update_interval=1, target_update_interval=5000)
         
         return agent, agent_info, q_func, opt, explorer, replay_buffer
     elif(alg in 'PS-DDQN'):
@@ -873,15 +873,16 @@ def create_agent(
         # Experience replay
         # replay_buffer = CustomPrioritizedBuffer(capacity=1000000, alpha=0.6, beta0=0.4, betasteps=betasteps,
         # num_steps=3,normalize_by_max='memory')
-        replay_buffer = chainerrl.replay_buffers.TimePrioritizedReplayBuffer(capacity=1000000,
+        # replay_buffer = chainerrl.replay_buffers.TimePrioritizedReplayBuffer(capacity=1000000,
+        replay_buffer = chainerrl.replay_buffers.PrioritizedReplayBuffer(capacity=1000000,
         alpha=0.5, beta0=0.4, betasteps=betasteps,
         num_steps=3,normalize_by_max='memory')
         # replay_buffer = CustomPrioritizedReplayBuffer(capacity=1000000, alpha=0.6, beta0=0.4, betasteps=betasteps, num_steps=3, normalize_by_max='memory')
 
         agent = chainerrl.agents.DoubleIQN(
             q_func, opt, replay_buffer, gpu=None, gamma=gamma,
-            explorer=explorer, replay_start_size=100000,
-            target_update_interval=10000,
+            explorer=explorer, replay_start_size=20000,
+            target_update_interval=50000,
             update_interval=1,
             minibatch_size=32
         )

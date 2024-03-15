@@ -4,7 +4,7 @@ Created on Sat Nov 13 16:34:35 2021
 
 @author: Mieszko Ferens
 """
-
+import csv
 import os
 import chainerrl
 import gym
@@ -63,6 +63,20 @@ def train_scenario(env, agents):
     log_file.write("Error variance: " + str(env.core_manager.error_var) + "\n")
     log_file.write("---------------------------------------------------\n\n")
     
+    # 为每个算法创建CSV文件并打开它们以便写入
+    csv_files = {}
+    csv_writers = {}
+    for agent_idx, agent_info in enumerate(agents):
+        alg_name = agent_info[0][1]  # 假设agents列表中每个元素都是(agent对象, 算法名称)
+        csv_file_path = os.path.join(results_path, f"{alg_name}_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.csv")
+        csv_files[alg_name] = open(csv_file_path, mode='w', newline='', encoding='utf-8')
+        csv_writers[alg_name] = csv.writer(csv_files[alg_name])
+        csv_writers[alg_name].writerow(["Step","APP", "Action", "Reward"])  # 写入表头
+
+
+
+
+
     # Training
     print('---TRAINING---')
     log_file.write('---TRAINING---\n')
@@ -70,7 +84,7 @@ def train_scenario(env, agents):
     start_up = 1000
 
 # !!!!!!!!!
-    n_time_steps = 301000 # For 10^-3 precision -> ~10^5 sample points
+    n_time_steps = 100000 # For 10^-3 precision -> ~10^5 sample points
     # Number of last episodes to use for average reward calculation
     averaging_window = 10000
     x_axis = range(1, start_up+n_time_steps+1) # X axis for ploting results
@@ -120,8 +134,11 @@ def train_scenario(env, agents):
                 training_times += time.time() - time_agent
                 # 
                 # 把选出来的动作取计算
+                last_app = env.app
                 obs, reward, done, _ = env.step(action) # Environment
                 rewards.append(reward) # Store time step reward
+                # 
+                csv_writers[agents[batch][a][1]].writerow([t,last_app-1, action, reward])
                 t += 1
                 # Calculate and store the average reward after max time steps
                 # print(len(rewards))
@@ -485,7 +502,7 @@ if(__name__ == "__main__"):
             del gym.envs.registration.registry.env_specs[env]
     del env_dict
     
-    env = gym.make('offloading_net:offload-noplanning-v1')
+    env = gym.make('offloading_net:offload-noplanning-v2')
     env = chainerrl.wrappers.CastObservationToFloat32(env)
     
     ## Agents (using ChainerRL)
@@ -497,7 +514,7 @@ if(__name__ == "__main__"):
     # print(env.observation_space.low)
     # print(env.observation_space.low.size)
     # Algorithms to be used
-    # alg = ['DDQN','SARSA']
+    alg = ['DQN','PS-TIMEDOUBLEIQNNOISY','PPO']
     # alg = ['NSQ2','NSQ5','NSQ10']
     # alg = ['A3C']
     # alg = ['DQN','DDQN','NSQ10','PPO']
@@ -508,7 +525,7 @@ if(__name__ == "__main__"):
     # alg = ['NSQ5_']
     #alg = ['PS-DOUBLEIQNNOISY','PS-UNIFORMDOUBLEIQNNOISY','PS-TIMEDOUBLEIQNNOISY']
     #alg = ['PS-TIMEDOUBLEIQNNOISY','PPO','PS-DDQN','PS-DOUBLEIQNNOISY']
-    alg = ['PS-TIMEDOUBLEIQNNOISY'，'DQN'’]
+    #alg = ['PS-TIMEDOUBLEIQNNOISY','DQN']
     #alg = ['DDQN']
     #alg = ['PPO']
     #alg = ['A3CFF','A3CFC','PSDDQNNOISE','DDQN','DQN_','PS-DDQN']
@@ -537,5 +554,5 @@ if(__name__ == "__main__"):
     
     ## Train and test
     train_scenario(env, agents)
-    test_scenario(env, agents)
+    # test_scenario(env, agents)
 
