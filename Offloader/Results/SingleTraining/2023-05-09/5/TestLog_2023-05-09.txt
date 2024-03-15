@@ -1,0 +1,56 @@
+Experiment Log - 2023-05-09 15:07:50.714682
+
+Network topology: Valladolid's network
+Vehicles in network: 100
+Error variance: 0
+---------------------------------------------------
+
+---TRAINING---
+--Batch 0 in training...
+--Agent 0 in training...
+--------DOUBLEIQN - NOISY NET -PER - Stratified+Uniform+Prioritized + Constant ε= (γ=0.995)--------
+Time step 1000
+Application queued/processed succesfully
+Core reservation time: [0.9728     0.9540333  0.97513336 0.96393335 0.97943336 0.9868
+ 0.9876     0.99256665 0.9892     0.97356665 0.9783667  0.98573333
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 2000
+Application queued/processed succesfully
+Core reservation time: [0.9377     0.9238333  0.95523334 0.9205     0.97973335 0.9826
+ 0.9867667  0.9561     0.96996665 0.9781     0.9511333  0.9768
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 3000
+Application queued/processed succesfully
+Core reservation time: [0.94336665 0.9486333  0.94263333 0.9108667  0.97996664 0.9768
+ 0.97783333 0.96856666 0.9711667  0.9808     0.97073334 0.94983333
+ 1.        ]
+Next application: 5
+From vehicle node: 5
+Application info: [0.         0.80851066 0.872      0.75      ]
+Delay prediction: [0.       0.       0.       0.       0.981982]
+Time step 4000
+Application queued/processed succesfully
+Core reservation time: [0.93986666 0.9443667  0.9350333  0.9358579  0.9844667  0.9695333
+ 0.97943336 0.9609     0.971      0.95923334 0.96923333 0.95323336
+ 1.        ]
+Next application: 3
+From vehicle node: 7
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 5000
+Application queued/processed succesfully
+Core reservation time: [0.94416666 0.954      0.9442667  0.91726667 0.98363334 0.9424
+ 0.98536664 0.97583336 0.97583336 0.9435355  0.9695948  0.9865
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]

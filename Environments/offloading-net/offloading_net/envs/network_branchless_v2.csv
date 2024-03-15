@@ -1,0 +1,4 @@
+original,connected,bitrate,delay
+1,2,10000000,50
+2,3,10000000,20
+3,4,10000,0.1

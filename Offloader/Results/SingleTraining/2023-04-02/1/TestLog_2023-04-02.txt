@@ -1,0 +1,29 @@
+Experiment Log - 2023-04-02 21:20:15.035594
+
+Network topology: Valladolid's network
+Vehicles in network: 100
+Error variance: 0
+---------------------------------------------------
+
+---TRAINING---
+--Batch 0 in training...
+--Agent 0 in training...
+--------DOUBLEIQN - NOISY NET -PER - Stratified+Uniform+Prioritized + Constant ε= (γ=0.995)--------
+Time step 1000
+Application queued/processed succesfully
+Core reservation time: [0.9727     0.9591     0.95063335 0.9670333  0.9753     0.95206666
+ 0.97276664 0.9551     0.96573335 0.9657     0.96323335 0.95633334
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 2000
+Application queued/processed succesfully
+Core reservation time: [0.9033     0.9532     0.8923     0.95643336 0.92906666 0.92163336
+ 0.95916665 0.9195667  0.94456667 0.944      0.922      0.91323334
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]

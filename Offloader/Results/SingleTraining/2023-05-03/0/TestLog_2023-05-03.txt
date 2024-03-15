@@ -1,0 +1,11 @@
+Experiment Log - 2023-05-03 16:48:12.174412
+
+Network topology: Valladolid's network
+Vehicles in network: 100
+Error variance: 0
+---------------------------------------------------
+
+---TRAINING---
+--Batch 0 in training...
+--Agent 0 in training...
+--------DDQN - pure Constant ε=0.1 (γ=0.995)--------

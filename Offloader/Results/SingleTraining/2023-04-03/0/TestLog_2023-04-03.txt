@@ -1,0 +1,83 @@
+Experiment Log - 2023-04-03 15:35:43.138612
+
+Network topology: Valladolid's network
+Vehicles in network: 100
+Error variance: 0
+---------------------------------------------------
+
+---TRAINING---
+--Batch 0 in training...
+--Agent 0 in training...
+--------DOUBLEIQN - NOISY NET -PER - Stratified+Uniform+Prioritized + Constant ε= (γ=0.995)--------
+Time step 1000
+Application queued/processed succesfully
+Core reservation time: [0.9615667  0.9633667  0.9503667  0.96203333 0.9816667  0.99046665
+ 0.98106664 0.9683333  0.9697667  0.9459     0.9731333  0.9837
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 2000
+Application queued/processed succesfully
+Core reservation time: [0.94196665 0.9173333  0.9164     0.93743336 0.9759     0.95823336
+ 0.9554667  0.9789     0.93444717 0.91106665 0.9346333  0.9326
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 3000
+Application queued/processed succesfully
+Core reservation time: [0.9497     0.9166667  0.94773334 0.94166666 0.9586333  0.9546
+ 0.96073335 0.9494     0.93663335 0.9361333  0.9069667  0.9342
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 4000
+Application queued/processed succesfully
+Core reservation time: [0.94776666 0.92086667 0.9233351  0.92263335 0.94636244 0.94603336
+ 0.96456665 0.9442     0.9399667  0.9357333  0.9208014  0.94096667
+ 1.        ]
+Next application: 5
+From vehicle node: 7
+Application info: [0.         0.80851066 0.872      0.75      ]
+Delay prediction: [0.       0.       0.       0.       0.981982]
+Time step 5000
+Failed to queue/process the application
+Core reservation time: [0.9179     0.9299333  0.9434     0.9267667  0.9496667  0.947
+ 0.9659333  0.95126665 0.9291     0.92686665 0.9166     0.91026664
+ 1.        ]
+Next application: 2
+From vehicle node: 5
+Application info: [0.         0.23404256 0.8        0.05      ]
+Delay prediction: [0. 0. 0. 0. 0.]
+Time step 6000
+Application queued/processed succesfully
+Core reservation time: [0.9079667  0.94346666 0.93876666 0.91786665 0.9677     0.9391
+ 0.965      0.954      0.9478667  0.94956666 0.9209667  0.8931
+ 1.        ]
+Next application: 4
+From vehicle node: 7
+Application info: [0.        0.9787234 0.8       1.       ]
+Delay prediction: [0.8328133 0.8323967 0.8323967 0.8331467 0.9984985]
+Time step 7000
+Application queued/processed succesfully
+Core reservation time: [0.91178995 0.94313335 0.9224     0.9274     0.9676667  0.9400667
+ 0.9557     0.9695333  0.9259     0.96353334 0.9152     0.89665914
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 8000
+Application queued/processed succesfully
+Core reservation time: [0.92193335 0.93392336 0.908      0.93287724 0.9436333  0.966
+ 0.9618667  0.9637482  0.9421     0.9334     0.89926666 0.9382
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]

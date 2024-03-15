@@ -1,0 +1,11 @@
+Experiment Log - 2023-06-17 15:30:42.170189
+
+Network topology: Valladolid's network
+Vehicles in network: 20
+Error variance: 0
+---------------------------------------------------
+
+---TRAINING---
+--Batch 0 in training...
+--Agent 0 in training...
+--------Always cloud processing--------

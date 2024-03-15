@@ -1,0 +1,2239 @@
+Experiment Log - 2023-04-02 15:01:06.582259
+
+Network topology: Valladolid's network
+Vehicles in network: 100
+Error variance: 0
+---------------------------------------------------
+
+---TRAINING---
+--Batch 0 in training...
+--Agent 0 in training...
+--------DOUBLEIQN - NOISY NET -PER - Stratified+Uniform+Prioritized + Constant ε= (γ=0.995)--------
+Time step 1000
+Application queued/processed succesfully
+Core reservation time: [0.9627333  0.97966665 0.98123336 0.95713335 0.9834667  0.9706333
+ 0.97936666 0.97253335 0.96846664 0.9731333  0.9670333  0.9626667
+ 1.        ]
+Next application: 3
+From vehicle node: 5
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 2000
+Application queued/processed succesfully
+Core reservation time: [0.9036     0.9548     0.97393334 0.9444     0.961      0.974
+ 0.9564     0.9578     0.92406666 0.9393333  0.9336     0.9447
+ 1.        ]
+Next application: 3
+From vehicle node: 7
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 3000
+Application queued/processed succesfully
+Core reservation time: [0.89752    0.9467     0.96423334 0.9489667  0.96133333 0.9663333
+ 0.9357333  0.9745333  0.90036666 0.93023336 0.92896664 0.96576667
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 4000
+Application queued/processed succesfully
+Core reservation time: [0.9245     0.9422     0.95187527 0.9417667  0.95383334 0.9731333
+ 0.9352667  0.9506     0.9205805  0.9375102  0.9258439  0.94923335
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 5000
+Application queued/processed succesfully
+Core reservation time: [0.9576333  0.9395667  0.93796664 0.934742   0.95233333 0.95753336
+ 0.977      0.93186665 0.92543334 0.9274333  0.90743333 0.9522
+ 1.        ]
+Next application: 6
+From vehicle node: 6
+Application info: [0.         0.89361703 0.         0.1       ]
+Delay prediction: [0.        0.        0.        0.        0.9249249]
+Time step 6000
+Application queued/processed succesfully
+Core reservation time: [0.95533335 0.9324333  0.93053335 0.93686664 0.9515667  0.95016664
+ 0.9771     0.9633333  0.90926665 0.93733335 0.9293321  0.9262
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 7000
+Application queued/processed succesfully
+Core reservation time: [0.9356     0.95923334 0.9185     0.94273335 0.9583     0.95306665
+ 0.9729667  0.97443336 0.9469882  0.9593     0.9370667  0.9022
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 8000
+Application queued/processed succesfully
+Core reservation time: [0.9465     0.96563333 0.9403667  0.9287     0.9644667  0.95673335
+ 0.953      0.94813335 0.9615     0.9492     0.9321333  0.90823334
+ 1.        ]
+Next application: 3
+From vehicle node: 6
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 9000
+Application queued/processed succesfully
+Core reservation time: [0.95386666 0.95276666 0.9431     0.95626664 0.9608     0.9781333
+ 0.95683336 0.974      0.9528667  0.9282333  0.9275     0.89886665
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 10000
+Application queued/processed succesfully
+Core reservation time: [0.94476664 0.9485667  0.94733334 0.9562333  0.94233334 0.9571667
+ 0.9682     0.96723336 0.94956666 0.9324333  0.92653334 0.902
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 11000
+Application queued/processed succesfully
+Core reservation time: [0.9574     0.95503336 0.9582667  0.9461667  0.97003335 0.9735
+ 0.9686     0.96143335 0.9246333  0.9475667  0.92553335 0.9358
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 12000
+Application queued/processed succesfully
+Core reservation time: [0.9681     0.9278333  0.9647     0.94056666 0.97896665 0.9691333
+ 0.9623     0.94533336 0.94083333 0.93022794 0.9501     0.9342333
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 13000
+Application queued/processed succesfully
+Core reservation time: [0.95503336 0.9426     0.97216666 0.9316667  0.9278333  0.9840886
+ 0.9773     0.98183334 0.9194583  0.93864214 0.95743334 0.9463889
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 14000
+Application queued/processed succesfully
+Core reservation time: [0.9524     0.9388667  0.9500667  0.9198     0.94996667 0.97756666
+ 0.9831     0.9477     0.9386574  0.89673334 0.9379     0.9444
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 15000
+Application queued/processed succesfully
+Core reservation time: [0.9518667  0.94456667 0.93207383 0.90903336 0.98573333 0.9731333
+ 0.9783     0.923      0.93883336 0.9331667  0.9374     0.934
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 16000
+Failed to queue/process the application
+Core reservation time: [0.9631023  0.9406168  0.95881927 0.9160333  0.97763336 0.9747
+ 0.9716333  0.92913336 0.92863333 0.93906665 0.92936665 0.90972656
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 17000
+Application queued/processed succesfully
+Core reservation time: [0.9573     0.9403333  0.9543333  0.90856665 0.9669667  0.9691926
+ 0.9413     0.94563335 0.9393195  0.9189     0.9325     0.9183823
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 18000
+Application queued/processed succesfully
+Core reservation time: [0.9658333  0.93013334 0.9310333  0.9475333  0.9646     0.9737333
+ 0.92385477 0.95416665 0.92723334 0.9475333  0.93196666 0.93913335
+ 1.        ]
+Next application: 5
+From vehicle node: 6
+Application info: [0.         0.80851066 0.872      0.75      ]
+Delay prediction: [0.       0.       0.       0.       0.981982]
+Time step 19000
+Application queued/processed succesfully
+Core reservation time: [0.9603     0.9403333  0.9533     0.9191667  0.9529667  0.9669
+ 0.9565     0.9639     0.92536664 0.9318     0.9217333  0.93666667
+ 0.9616597 ]
+Next application: 6
+From vehicle node: 6
+Application info: [0.         0.89361703 0.         0.1       ]
+Delay prediction: [0.        0.        0.        0.        0.9249249]
+Time step 20000
+Application queued/processed succesfully
+Core reservation time: [0.9374     0.9447333  0.962      0.9109667  0.9648     0.97286665
+ 0.9696     0.9521     0.92216665 0.9224     0.9357     0.9328667
+ 0.90188235]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 21000
+Application queued/processed succesfully
+Core reservation time: [0.9280667  0.9519333  0.94133335 0.95086664 0.9641333  0.9503667
+ 0.966      0.95626664 0.9414333  0.92943335 0.91683334 0.92359227
+ 1.        ]
+Next application: 5
+From vehicle node: 7
+Application info: [0.         0.80851066 0.872      0.75      ]
+Delay prediction: [0.       0.       0.       0.       0.981982]
+Time step 22000
+Application queued/processed succesfully
+Core reservation time: [0.95643336 0.9533333  0.93983334 0.93586665 0.9467     0.9407
+ 0.9693     0.95523334 0.9315     0.9349333  0.9054     0.9482667
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 23000
+Application queued/processed succesfully
+Core reservation time: [0.95313334 0.9530333  0.93693334 0.92043334 0.9713333  0.9516
+ 0.9642     0.9699     0.92766666 0.92578876 0.912      0.90816665
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 24000
+Application queued/processed succesfully
+Core reservation time: [0.93523335 0.9642     0.94736665 0.92161435 0.9561667  0.9575
+ 0.93236667 0.9588107  0.94523335 0.8997     0.9191333  0.9351
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 25000
+Application queued/processed succesfully
+Core reservation time: [0.93326664 0.94956666 0.9446     0.9433333  0.9438     0.9775
+ 0.9252667  0.9709333  0.95923334 0.8976667  0.931806   0.9565667
+ 0.97555363]
+Next application: 3
+From vehicle node: 5
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 26000
+Application queued/processed succesfully
+Core reservation time: [0.92756665 0.9639     0.93773335 0.96778935 0.9518333  0.9636
+ 0.9625     0.9645333  0.9324667  0.9048     0.9303333  0.9576667
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 27000
+Application queued/processed succesfully
+Core reservation time: [0.92932683 0.9503     0.9504667  0.94406664 0.964      0.9682893
+ 0.9618     0.9401     0.9050523  0.92803335 0.94126666 0.9337
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 28000
+Application queued/processed succesfully
+Core reservation time: [0.9390333  0.9433     0.9468333  0.93751997 0.95916665 0.93803334
+ 0.97036666 0.9484     0.9497     0.9321259  0.93736666 0.9222747
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 29000
+Application queued/processed succesfully
+Core reservation time: [0.9314333  0.93616664 0.94713336 0.9280667  0.93556666 0.9477
+ 0.95626664 0.9782     0.94673336 0.92716664 0.9376     0.92576665
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 30000
+Application queued/processed succesfully
+Core reservation time: [0.933      0.93868095 0.95136666 0.93293333 0.93833333 0.96033335
+ 0.971      0.961685   0.93203336 0.9224     0.9334     0.92170024
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 31000
+Application queued/processed succesfully
+Core reservation time: [0.9481     0.95426667 0.94656664 0.9469406  0.9451226  0.9698333
+ 0.96563333 0.9507     0.9067     0.93696666 0.9301     0.9389667
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 32000
+Failed to queue/process the application
+Core reservation time: [0.9498     0.9730444  0.93656665 0.9623333  0.9659     0.9600667
+ 0.95393336 0.95423335 0.9364667  0.9316667  0.9360333  0.9407
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 33000
+Application queued/processed succesfully
+Core reservation time: [0.9382157  0.9597667  0.9211     0.9500333  0.9634333  0.9416
+ 0.95786667 0.9579667  0.908064   0.9425667  0.93273336 0.9284667
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 34000
+Application queued/processed succesfully
+Core reservation time: [0.9298554  0.96496665 0.9186     0.96923333 0.9601333  0.96283334
+ 0.9736     0.9696     0.88656664 0.9515667  0.9179     0.94166666
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 35000
+Application queued/processed succesfully
+Core reservation time: [0.9555     0.96143335 0.93693334 0.95786667 0.9672     0.963
+ 0.9401     0.95383334 0.9339     0.9248667  0.9447     0.9134667
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 36000
+Application queued/processed succesfully
+Core reservation time: [0.94923335 0.92836666 0.96456665 0.95713335 0.9647667  0.9680333
+ 0.9501     0.9640333  0.9316     0.9525667  0.9472     0.9124
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 37000
+Application queued/processed succesfully
+Core reservation time: [0.9521     0.9202667  0.9107     0.95993334 0.9584     0.96563333
+ 0.9730667  0.96636665 0.90716666 0.9521     0.93693334 0.93436664
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 38000
+Application queued/processed succesfully
+Core reservation time: [0.9677333  0.934      0.91136664 0.95203334 0.94766665 0.97393334
+ 0.95556664 0.9589     0.9217333  0.9464667  0.9515     0.91833335
+ 1.        ]
+Next application: 6
+From vehicle node: 6
+Application info: [0.         0.89361703 0.         0.1       ]
+Delay prediction: [0.        0.        0.        0.        0.9249249]
+Time step 39000
+Failed to queue/process the application
+Core reservation time: [0.96386665 0.9228333  0.9353     0.93663335 0.95066667 0.956
+ 0.97576666 0.9481     0.9315     0.9500026  0.9427     0.9346667
+ 1.        ]
+Next application: 3
+From vehicle node: 5
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 40000
+Application queued/processed succesfully
+Core reservation time: [0.9523     0.9524988  0.9693     0.94163334 0.9564     0.96173334
+ 0.97186667 0.95636666 0.92733335 0.93273336 0.9307333  0.92913336
+ 0.9745029 ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 41000
+Application queued/processed succesfully
+Core reservation time: [0.9418     0.9389667  0.95953333 0.93943334 0.9508333  0.9573
+ 0.95086664 0.9562488  0.9174     0.90923333 0.9449667  0.9213667
+ 1.        ]
+Next application: 3
+From vehicle node: 6
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 42000
+Application queued/processed succesfully
+Core reservation time: [0.94889313 0.9482667  0.93586665 0.9349     0.9494333  0.9589667
+ 0.96146005 0.9335667  0.9334667  0.9033     0.9567     0.9252667
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 43000
+Failed to queue/process the application
+Core reservation time: [0.9440333  0.9299667  0.9668     0.94249064 0.95923334 0.972
+ 0.95633334 0.9382333  0.9432     0.92       0.9377667  0.91726667
+ 1.        ]
+Next application: 6
+From vehicle node: 6
+Application info: [0.         0.89361703 0.         0.1       ]
+Delay prediction: [0.        0.        0.        0.        0.9249249]
+Time step 44000
+Application queued/processed succesfully
+Core reservation time: [0.9467     0.9683667  0.9590667  0.93273336 0.97686666 0.9665667
+ 0.9799     0.9431     0.90213335 0.938      0.95203334 0.9113333
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 45000
+Application queued/processed succesfully
+Core reservation time: [0.93946666 0.95633334 0.9656     0.9218     0.97403336 0.95523334
+ 0.96276665 0.9436     0.92663336 0.918      0.9497667  0.9137
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 46000
+Application queued/processed succesfully
+Core reservation time: [0.9626     0.93836665 0.9544333  0.91536665 0.9702     0.95343333
+ 0.944      0.95573336 0.9454     0.9173667  0.9530333  0.9209667
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 47000
+Application queued/processed succesfully
+Core reservation time: [0.9601667  0.9431     0.95526665 0.9370667  0.9542     0.9601333
+ 0.9616333  0.96293336 0.9545     0.91943336 0.93666667 0.91896665
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 48000
+Application queued/processed succesfully
+Core reservation time: [0.9398     0.93913335 0.9677333  0.9368     0.95579046 0.9654
+ 0.9403     0.96606666 0.9490333  0.9044     0.9218     0.9190736
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 49000
+Application queued/processed succesfully
+Core reservation time: [0.9441     0.92903566 0.9680333  0.93866664 0.9791333  0.97420233
+ 0.9549     0.9623     0.9274333  0.9331667  0.94446665 0.9148333
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 50000
+Application queued/processed succesfully
+Core reservation time: [0.9381667  0.9467667  0.9561     0.9335333  0.9522667  0.98116666
+ 0.9594333  0.92756665 0.9027333  0.92973334 0.95323336 0.930316
+ 0.97013354]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 51000
+Application queued/processed succesfully
+Core reservation time: [0.92683333 0.96353334 0.94593334 0.9378333  0.9709333  0.9542
+ 0.97543335 0.95626664 0.90026665 0.9366     0.9282     0.9359667
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 52000
+Application queued/processed succesfully
+Core reservation time: [0.9377     0.9471     0.9283     0.9641     0.9645     0.9508
+ 0.95236665 0.9535667  0.92475635 0.94243336 0.9102333  0.9262
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 53000
+Application queued/processed succesfully
+Core reservation time: [0.9368     0.9386     0.93976665 0.96893334 0.96456665 0.9415
+ 0.9651     0.9645563  0.91083336 0.9501     0.9181392  0.95456666
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 54000
+Application queued/processed succesfully
+Core reservation time: [0.94053334 0.9649     0.932      0.95673335 0.9787667  0.9140667
+ 0.97066665 0.9730667  0.88203335 0.9173     0.9547333  0.9717
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 55000
+Application queued/processed succesfully
+Core reservation time: [0.95486665 0.94156665 0.94456667 0.9304     0.95933336 0.9572667
+ 0.95393336 0.9654     0.9364667  0.91856664 0.91803336 0.9543667
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 56000
+Application queued/processed succesfully
+Core reservation time: [0.9486333  0.9526333  0.94526666 0.9397     0.9587333  0.96923333
+ 0.94533336 0.9641     0.94380516 0.9388667  0.9119     0.92036664
+ 1.        ]
+Next application: 6
+From vehicle node: 5
+Application info: [0.         0.89361703 0.         0.1       ]
+Delay prediction: [0.        0.        0.        0.        0.9249249]
+Time step 57000
+Application queued/processed succesfully
+Core reservation time: [0.9446667  0.95143336 0.9465333  0.93086666 0.9424     0.9507333
+ 0.95593333 0.9567     0.90576667 0.93516666 0.95526665 0.9321779
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 58000
+Failed to queue/process the application
+Core reservation time: [0.95176667 0.9569333  0.91613334 0.9403667  0.95596665 0.9690667
+ 0.9458333  0.94203335 0.9270333  0.94013655 0.9502     0.88243335
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 59000
+Application queued/processed succesfully
+Core reservation time: [0.9385     0.9648     0.8965667  0.9735     0.96636665 0.9635
+ 0.9457333  0.9458     0.932      0.9586333  0.95593333 0.87883335
+ 1.        ]
+Next application: 5
+From vehicle node: 5
+Application info: [0.         0.80851066 0.872      0.75      ]
+Delay prediction: [0.       0.       0.       0.       0.981982]
+Time step 60000
+Application queued/processed succesfully
+Core reservation time: [0.9543667  0.95316666 0.91006666 0.965      0.9669667  0.9575
+ 0.9634333  0.93483335 0.8863     0.9543333  0.9482     0.93784446
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 61000
+Application queued/processed succesfully
+Core reservation time: [0.9585606  0.9371667  0.9134667  0.94913334 0.9383     0.96363056
+ 0.9674     0.9336     0.9253333  0.95066667 0.9247     0.9648333
+ 1.        ]
+Next application: 3
+From vehicle node: 6
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 62000
+Application queued/processed succesfully
+Core reservation time: [0.9554     0.9344     0.9331463  0.9472     0.9474     0.9656
+ 0.95273334 0.9543     0.9236     0.9399     0.91183335 0.94963336
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 63000
+Failed to queue/process the application
+Core reservation time: [0.9418333  0.93163335 0.95966667 0.94776666 0.96146667 0.9752333
+ 0.9403667  0.9451333  0.9455     0.9724     0.8929667  0.9327
+ 1.        ]
+Next application: 5
+From vehicle node: 5
+Application info: [0.         0.80851066 0.872      0.75      ]
+Delay prediction: [0.       0.       0.       0.       0.981982]
+Time step 64000
+Application queued/processed succesfully
+Core reservation time: [0.9411     0.93273336 0.9602     0.96853334 0.9745333  0.97323334
+ 0.9736     0.92193335 0.93696666 0.9572     0.8734     0.9672667
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 65000
+Application queued/processed succesfully
+Core reservation time: [0.9425     0.9214333  0.94983333 0.945      0.9770333  0.96533334
+ 0.96503335 0.94913334 0.93153334 0.9511333  0.88696665 0.95376664
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 66000
+Application queued/processed succesfully
+Core reservation time: [0.95916665 0.92793334 0.9479667  0.95706666 0.95953333 0.95953333
+ 0.94916666 0.94853336 0.89376664 0.9473     0.9256667  0.9343
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 67000
+Application queued/processed succesfully
+Core reservation time: [0.9596     0.9234333  0.9508333  0.9331     0.9546667  0.95133334
+ 0.97603333 0.94386667 0.9036667  0.94556665 0.92293334 0.94296664
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 68000
+Application queued/processed succesfully
+Core reservation time: [0.9536667  0.93023336 0.9450667  0.92156667 0.9518     0.94916666
+ 0.9789     0.95023334 0.92656666 0.9368     0.9065667  0.9344
+ 1.        ]
+Next application: 3
+From vehicle node: 6
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 69000
+Application queued/processed succesfully
+Core reservation time: [0.9202333  0.9575     0.954      0.940854   0.9563647  0.9669
+ 0.9529333  0.9652333  0.91543335 0.9264333  0.9424667  0.91966665
+ 1.        ]
+Next application: 6
+From vehicle node: 7
+Application info: [0.         0.89361703 0.         0.1       ]
+Delay prediction: [0.        0.        0.        0.        0.9249249]
+Time step 70000
+Application queued/processed succesfully
+Core reservation time: [0.93076664 0.9589217  0.9288667  0.9600667  0.962832   0.975
+ 0.96423334 0.96576667 0.9252333  0.9238     0.93293333 0.9220667
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 71000
+Application queued/processed succesfully
+Core reservation time: [0.9555     0.94656664 0.94424057 0.92796665 0.9737333  0.9684
+ 0.93883336 0.9471667  0.9358     0.93506664 0.9349667  0.9220667
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 72000
+Application queued/processed succesfully
+Core reservation time: [0.9582     0.9356     0.976      0.9251     0.9666333  0.96496665
+ 0.95213336 0.9298     0.9350333  0.9451333  0.93623334 0.9258
+ 1.        ]
+Next application: 3
+From vehicle node: 7
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 73000
+Application queued/processed succesfully
+Core reservation time: [0.9392     0.9381667  0.9584     0.9397     0.93593335 0.9778
+ 0.96956664 0.94886667 0.93233335 0.944      0.93833333 0.93773335
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 74000
+Application queued/processed succesfully
+Core reservation time: [0.94916666 0.9471     0.9328     0.9575     0.9243896  0.9805
+ 0.97326666 0.95066667 0.9468333  0.9238667  0.9293742  0.9494
+ 1.        ]
+Next application: 3
+From vehicle node: 6
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 75000
+Application queued/processed succesfully
+Core reservation time: [0.93       0.93506664 0.94633335 0.9583     0.9375     0.9491
+ 0.96533334 0.95246667 0.95736665 0.9337     0.9210333  0.9214333
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 76000
+Application queued/processed succesfully
+Core reservation time: [0.94376665 0.9188     0.9415333  0.9674     0.9635     0.9479
+ 0.9751667  0.9546     0.93756664 0.9180667  0.92366666 0.9163667
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 77000
+Application queued/processed succesfully
+Core reservation time: [0.9594667  0.9044     0.9573     0.9573     0.93453336 0.9579
+ 0.96966666 0.95573336 0.93916667 0.91311705 0.91756666 0.9582
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 78000
+Application queued/processed succesfully
+Core reservation time: [0.94336665 0.9321667  0.95556664 0.9696     0.92380476 0.96146667
+ 0.97026664 0.96448904 0.95206666 0.92459255 0.90742356 0.9473546
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 79000
+Application queued/processed succesfully
+Core reservation time: [0.91136664 0.9545     0.96121657 0.96383333 0.9571     0.9472
+ 0.9551     0.9508333  0.94526666 0.92476666 0.9187667  0.92863333
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 80000
+Application queued/processed succesfully
+Core reservation time: [0.9126     0.9626     0.97136664 0.9356667  0.968      0.95933336
+ 0.93233335 0.95916665 0.93453336 0.9005333  0.9356667  0.9354
+ 1.        ]
+Next application: 6
+From vehicle node: 7
+Application info: [0.         0.89361703 0.         0.1       ]
+Delay prediction: [0.        0.        0.        0.        0.9249249]
+Time step 81000
+Application queued/processed succesfully
+Core reservation time: [0.9636     0.92253333 0.9547     0.94053334 0.97176665 0.96289456
+ 0.94733334 0.94483334 0.90936667 0.92773336 0.9396     0.9337
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 82000
+Application queued/processed succesfully
+Core reservation time: [0.9622333  0.9306667  0.9382     0.94303334 0.9734283  0.93703336
+ 0.9564667  0.9575667  0.9183     0.9554     0.9457667  0.93626666
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 83000
+Application queued/processed succesfully
+Core reservation time: [0.9584     0.9155333  0.93413335 0.92553335 0.9722     0.94313335
+ 0.9485     0.9787667  0.9522     0.9219     0.9436     0.9278247
+ 1.        ]
+Next application: 3
+From vehicle node: 5
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 84000
+Application queued/processed succesfully
+Core reservation time: [0.9554667  0.9342667  0.93413335 0.9259428  0.9548     0.9597
+ 0.94743335 0.96146667 0.93796664 0.9264333  0.9487333  0.90563333
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 85000
+Application queued/processed succesfully
+Core reservation time: [0.94013333 0.95986664 0.9145333  0.9545     0.97003335 0.9648
+ 0.93743336 0.97083336 0.9103931  0.91926664 0.93236667 0.9359667
+ 1.        ]
+Next application: 6
+From vehicle node: 6
+Application info: [0.         0.89361703 0.         0.1       ]
+Delay prediction: [0.        0.        0.        0.        0.9249249]
+Time step 86000
+Application queued/processed succesfully
+Core reservation time: [0.93976665 0.9178333  0.9438     0.9525333  0.9657     0.9503
+ 0.97253335 0.96786666 0.9076     0.92726666 0.9288423  0.9390333
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 87000
+Application queued/processed succesfully
+Core reservation time: [0.9556     0.9008333  0.9421     0.9433333  0.943      0.94196665
+ 0.9654667  0.9601333  0.8984333  0.92266667 0.9306333  0.9235
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 88000
+Application queued/processed succesfully
+Core reservation time: [0.9676333  0.9306333  0.93153334 0.9524     0.9727989  0.96356666
+ 0.94243336 0.9601333  0.9271333  0.9331333  0.9350723  0.9155966
+ 1.        ]
+Next application: 5
+From vehicle node: 6
+Application info: [0.         0.80851066 0.872      0.75      ]
+Delay prediction: [0.       0.       0.       0.       0.981982]
+Time step 89000
+Application queued/processed succesfully
+Core reservation time: [0.9636     0.9487333  0.92653334 0.9536333  0.9583     0.9837667
+ 0.94706386 0.9641     0.9141667  0.94663334 0.9370667  0.9236
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 90000
+Application queued/processed succesfully
+Core reservation time: [0.9501333  0.9421333  0.92183334 0.94853336 0.9789     0.9621
+ 0.984      0.9806333  0.89126664 0.94893336 0.9431401  0.9321
+ 1.        ]
+Next application: 6
+From vehicle node: 6
+Application info: [0.         0.89361703 0.         0.1       ]
+Delay prediction: [0.        0.        0.        0.        0.9249249]
+Time step 91000
+Application queued/processed succesfully
+Core reservation time: [0.95133334 0.94603336 0.9295667  0.93343335 0.9575     0.95024794
+ 0.97003335 0.9604243  0.9270667  0.9319     0.92123336 0.94383335
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 92000
+Failed to queue/process the application
+Core reservation time: [0.94586664 0.93633336 0.92973334 0.9367333  0.96653336 0.9556
+ 0.96716666 0.9683667  0.9422333  0.9371667  0.94093335 0.9364667
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 93000
+Application queued/processed succesfully
+Core reservation time: [0.9467     0.92836666 0.9522667  0.93733335 0.95666665 0.9694333
+ 0.96003336 0.9576     0.953      0.9264333  0.94771177 0.9292
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 94000
+Application queued/processed succesfully
+Core reservation time: [0.9606     0.9234667  0.9492     0.9698333  0.9217333  0.9671
+ 0.9641     0.95673335 0.93906665 0.9254     0.92553335 0.93116665
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 95000
+Application queued/processed succesfully
+Core reservation time: [0.9252333  0.9373     0.9525     0.9586667  0.92833334 0.9690667
+ 0.96356666 0.9596     0.9120333  0.92686665 0.925914   0.9449
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 96000
+Application queued/processed succesfully
+Core reservation time: [0.9212     0.96386665 0.9326     0.9359     0.9678     0.9539667
+ 0.9416302  0.9614     0.9187     0.9123     0.9423     0.9360333
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 97000
+Application queued/processed succesfully
+Core reservation time: [0.97206664 0.9683     0.9234667  0.92865574 0.9691     0.9765667
+ 0.9132     0.9528667  0.9284667  0.9275333  0.92943335 0.94016665
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 98000
+Application queued/processed succesfully
+Core reservation time: [0.97026664 0.9461667  0.9276     0.95923334 0.9545     0.95493335
+ 0.9401     0.9462     0.92696667 0.9152333  0.9286     0.9313
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 99000
+Application queued/processed succesfully
+Core reservation time: [0.9461     0.92222005 0.95       0.9565333  0.9456667  0.9564
+ 0.97186667 0.9608     0.9196     0.92476666 0.95743334 0.9357
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 100000
+Application queued/processed succesfully
+Core reservation time: [0.93043333 0.9503667  0.93883336 0.94526666 0.9554537  0.9551
+ 0.9645     0.94996667 0.9379884  0.93583333 0.9308     0.92623335
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 101000
+Application queued/processed succesfully
+Core reservation time: [0.9759667  0.98076665 0.96653336 0.9781333  0.9809333  0.9766333
+ 0.9769667  0.9807     0.9768     0.97083336 0.9579333  0.9558333
+ 1.        ]
+Next application: 3
+From vehicle node: 6
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 102000
+Application queued/processed succesfully
+Core reservation time: [0.9928667  0.9952     0.9985     0.9973     0.99436665 0.9931667
+ 0.9937     0.9949667  0.9985667  0.9985     0.99766666 0.99556667
+ 0.8917566 ]
+Next application: 3
+From vehicle node: 5
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 103000
+Application queued/processed succesfully
+Core reservation time: [0.9985   0.9909   0.994111 0.9985   0.9919   0.9931   0.994    0.9889
+ 0.9985   0.9964   0.9967   0.9964   1.      ]
+Next application: 6
+From vehicle node: 6
+Application info: [0.         0.89361703 0.         0.1       ]
+Delay prediction: [0.        0.        0.        0.        0.9249249]
+Time step 104000
+Application queued/processed succesfully
+Core reservation time: [0.9943     0.9963     0.9964     0.9955     0.9967     0.9979
+ 0.9976     0.9985     0.9964667  0.99736667 0.9964     0.99796665
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 105000
+Application queued/processed succesfully
+Core reservation time: [0.9949667  0.9952     0.9985     0.9985     0.9964     0.9979
+ 0.99616665 0.9961     0.9967     0.9985     0.9952     0.99773335
+ 1.        ]
+Next application: 6
+From vehicle node: 7
+Application info: [0.         0.89361703 0.         0.1       ]
+Delay prediction: [0.        0.        0.        0.        0.9249249]
+Time step 106000
+Application queued/processed succesfully
+Core reservation time: [0.9967667  0.9985     0.9985     0.9916703  0.9973     0.99256665
+ 0.9970667  0.997      0.9979     0.9961     0.9967667  0.9978
+ 1.        ]
+Next application: 6
+From vehicle node: 6
+Application info: [0.         0.89361703 0.         0.1       ]
+Delay prediction: [0.        0.        0.        0.        0.9249249]
+Time step 107000
+Application queued/processed succesfully
+Core reservation time: [0.99766666 0.9955     0.997      0.997      0.997      0.9952667
+ 0.9919     0.9985     0.9971333  0.9976     0.9973     0.99796665
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 108000
+Application queued/processed succesfully
+Core reservation time: [0.9979     0.99736667 0.9979     0.9985     0.997      0.9934667
+ 0.9955     0.9985     0.9985     0.99436665 0.9985     0.99473333
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 109000
+Application queued/processed succesfully
+Core reservation time: [0.99616665 0.9985     0.99516666 0.9949     0.997      0.9971333
+ 0.997      0.9922     0.9979     0.9982     0.9986333  0.9982
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 110000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.9970667  0.99616665 0.9964     0.9985     0.99196666
+ 0.9961     0.9985     0.9988     0.9988     0.9982     0.9988
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 111000
+Application queued/processed succesfully
+Core reservation time: [0.9968333  0.9939     0.9973     0.9985     0.99443334 0.9979
+ 0.9967     0.99766666 0.9985     0.9964     0.9979     0.9958
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 112000
+Application queued/processed succesfully
+Core reservation time: [0.99653333 0.9932333  0.9979     0.9952     0.9985     0.9964
+ 0.9946667  0.99306667 0.994      0.99736667 0.9973     0.9985
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 113000
+Application queued/processed succesfully
+Core reservation time: [0.9970667  0.9985     0.9973     0.9907     0.9967667  0.99586666
+ 0.9985     0.994      0.9979     0.997      0.997      0.9979
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 114000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.99376667 0.9952     0.99436665 0.9961     0.9964
+ 0.99796665 0.99616665 0.9985     0.9984     0.9976     0.997
+ 0.38057017]
+Next application: 5
+From vehicle node: 6
+Application info: [0.         0.80851066 0.872      0.75      ]
+Delay prediction: [0.       0.       0.       0.       0.981982]
+Time step 115000
+Application queued/processed succesfully
+Core reservation time: [0.9967     0.9985     0.9973     0.9961     0.9985     0.9985
+ 0.99736667 0.9934     0.9967     0.99736667 0.9958     0.9985
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 116000
+Application queued/processed succesfully
+Core reservation time: [0.9979     0.9958     0.99406666 0.9985     0.9979     0.9955
+ 0.9964     0.9985667  0.9976     0.9976     0.99796665 0.9973
+ 0.7570475 ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 117000
+Application queued/processed succesfully
+Core reservation time: [0.9976     0.9979     0.9985     0.9985667  0.997      0.9973
+ 0.9985     0.9916667  0.9977125  0.99436665 0.99796665 0.99796665
+ 0.4699664 ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 118000
+Application queued/processed succesfully
+Core reservation time: [0.9976     0.99796665 0.9976     0.9982     0.997      0.9973
+ 0.9973     0.9839333  0.99796665 0.9982     0.9970667  0.9976
+ 0.7902946 ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 119000
+Application queued/processed succesfully
+Core reservation time: [0.9971333  0.99436665 0.9963     0.9985     0.9964     0.9958
+ 0.9956333  0.9958     0.99473333 0.9985     0.9955     0.9967
+ 1.        ]
+Next application: 5
+From vehicle node: 5
+Application info: [0.         0.80851066 0.872      0.75      ]
+Delay prediction: [0.       0.       0.       0.       0.981982]
+Time step 120000
+Application queued/processed succesfully
+Core reservation time: [0.9973     0.9976     0.9967667  0.9967     0.9964     0.9958
+ 0.9885     0.9949     0.9973     0.99016666 0.9964667  0.99766666
+ 1.        ]
+Next application: 5
+From vehicle node: 7
+Application info: [0.         0.80851066 0.872      0.75      ]
+Delay prediction: [0.       0.       0.       0.       0.981982]
+Time step 121000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.99616665 0.9981667  0.99556667 0.9919     0.99443334
+ 0.9985     0.9985     0.99616665 0.9985     0.9961     0.9952
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 122000
+Application queued/processed succesfully
+Core reservation time: [0.9973     0.99556667 0.99796665 0.9985     0.99736667 0.9967
+ 0.9967     0.9934     0.997      0.9976     0.9976     0.99833333
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 123000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.99623334 0.99653333 0.9937     0.9928667  0.9958
+ 0.9964     0.9964     0.99796665 0.9976     0.9985     0.99736667
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 124000
+Application queued/processed succesfully
+Core reservation time: [0.9933     0.9985     0.99593335 0.99773335 0.98686665 0.9958
+ 0.9973     0.9979     0.9973     0.99443334 0.9934     0.9985
+ 1.        ]
+Next application: 3
+From vehicle node: 6
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 125000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.9979     0.997      0.9967     0.9982     0.9976
+ 0.9985667  0.9976     0.99129534 0.9985     0.9979     0.99383336
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 126000
+Application queued/processed succesfully
+Core reservation time: [0.99233335 0.9952667  0.9985     0.9973     0.9967     0.997
+ 0.997      0.997      0.9968333  0.9964     0.997      0.9985
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 127000
+Application queued/processed succesfully
+Core reservation time: [0.9946    0.9985    0.9985    0.9928667 0.997     0.9946667 0.9952667
+ 0.9973    0.9985667 0.997     0.9976    0.9967667 1.       ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 128000
+Application queued/processed succesfully
+Core reservation time: [0.9973     0.994      0.9970667  0.98716664 0.9979     0.9895667
+ 0.9979     0.9979     0.9985     0.9985     0.9985     0.99196666
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 129000
+Application queued/processed succesfully
+Core reservation time: [0.9967667  0.9985     0.9985     0.9928     0.9973     0.9979
+ 0.997      0.9976     0.9952667  0.997      0.99366665 0.9939
+ 0.57776785]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 130000
+Application queued/processed succesfully
+Core reservation time: [0.997      0.997      0.9971333  0.9985     0.9985     0.9964
+ 0.9971333  0.99796665 0.9976     0.9973     0.99796665 0.9976
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 131000
+Application queued/processed succesfully
+Core reservation time: [0.99653333 0.99653333 0.9967     0.99653333 0.9973     0.99833333
+ 0.99616665 0.9958     0.99833333 0.99616665 0.9967667  0.9958
+ 0.91835105]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 132000
+Application queued/processed succesfully
+Core reservation time: [0.99766666 0.9952667  0.99766666 0.9925333  0.9973     0.9985
+ 0.9952     0.99436665 0.9985     0.99616665 0.99473333 0.9967667
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 133000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.9979     0.9964     0.9964     0.99586666 0.9952
+ 0.9964667  0.9932333  0.99376667 0.9949     0.9985     0.9985
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 134000
+Application queued/processed succesfully
+Core reservation time: [0.9967     0.9964667  0.9971333  0.9964667  0.98866665 0.9985
+ 0.9973     0.9985     0.9979     0.9889     0.9973     0.9964
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 135000
+Application queued/processed succesfully
+Core reservation time: [0.9907     0.9985     0.9985     0.9985     0.997      0.9976
+ 0.9985667  0.997      0.9985     0.9942     0.9985     0.9964667
+ 0.52172816]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 136000
+Application queued/processed succesfully
+Core reservation time: [0.9897     0.9985     0.9985     0.9985     0.9985667  0.9976
+ 0.9979     0.9976     0.9958     0.99436665 0.9964     0.9970667
+ 0.3024761 ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 137000
+Application queued/processed succesfully
+Core reservation time: [0.99473333 0.997      0.9917333  0.997      0.9976     0.9982
+ 0.9979     0.99736667 0.9955     0.9964667  0.9897     0.997
+ 1.        ]
+Next application: 5
+From vehicle node: 5
+Application info: [0.         0.80851066 0.872      0.75      ]
+Delay prediction: [0.       0.       0.       0.       0.981982]
+Time step 138000
+Application queued/processed succesfully
+Core reservation time: [0.99833333 0.99586666 0.99736667 0.9961     0.9934     0.9985
+ 0.9985     0.99473333 0.9985     0.9928667  0.9985     0.9985
+ 1.        ]
+Next application: 5
+From vehicle node: 7
+Application info: [0.         0.80851066 0.872      0.75      ]
+Delay prediction: [0.       0.       0.       0.       0.981982]
+Time step 139000
+Application queued/processed succesfully
+Core reservation time: [0.9964     0.9971333  0.9955     0.9949     0.99796665 0.9973
+ 0.9979     0.9982     0.9964     0.99623334 0.9958     0.9937
+ 0.29864523]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 140000
+Application queued/processed succesfully
+Core reservation time: [0.9946667  0.9985     0.9925     0.9985     0.9971333  0.997
+ 0.9985     0.99736667 0.99436665 0.9958     0.9934     0.98836666
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 141000
+Application queued/processed succesfully
+Core reservation time: [0.9970667  0.9952     0.9952667  0.99233335 0.997      0.99766666
+ 0.9967     0.9985667  0.9985     0.99616665 0.9979     0.9961
+ 0.3803748 ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 142000
+Application queued/processed succesfully
+Core reservation time: [0.99766666 0.9949     0.9985     0.9967667  0.9985     0.9985
+ 0.99473333 0.99473333 0.9946     0.9985     0.9973     0.99796665
+ 0.82566863]
+Next application: 3
+From vehicle node: 6
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 143000
+Application queued/processed succesfully
+Core reservation time: [0.99766666 0.9967667  0.9967     0.99616665 0.9973     0.9985
+ 0.99616665 0.9985667  0.9973     0.9967667  0.9954     0.99586666
+ 1.        ]
+Next application: 3
+From vehicle node: 5
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 144000
+Application queued/processed succesfully
+Core reservation time: [0.9964667  0.9985     0.9958     0.9889333  0.9985     0.99586666
+ 0.9928667  0.9985     0.9925     0.9979     0.9979     0.9985
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 145000
+Application queued/processed succesfully
+Core reservation time: [0.9952     0.9892667  0.9958     0.99406666 0.9958     0.994
+ 0.9985     0.99736667 0.9988     0.9973     0.9973     0.99766666
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 146000
+Application queued/processed succesfully
+Core reservation time: [0.9958     0.99016666 0.9946     0.99203336 0.9964     0.9961
+ 0.9985     0.99293333 0.99796665 0.9964     0.9967667  0.99766666
+ 1.        ]
+Next application: 5
+From vehicle node: 6
+Application info: [0.         0.80851066 0.872      0.75      ]
+Delay prediction: [0.       0.       0.       0.       0.981982]
+Time step 147000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.9973     0.9985     0.9928     0.9971333  0.9967
+ 0.9949     0.9970667  0.9958     0.9985     0.99773335 0.99556667
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 148000
+Application queued/processed succesfully
+Core reservation time: [0.9935333  0.9964667  0.99616665 0.9985     0.9955     0.9985
+ 0.9964     0.9985     0.9988     0.9994     0.9988     0.9994
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 149000
+Application queued/processed succesfully
+Core reservation time: [0.9970667  0.9964667  0.9946667  0.9985     0.9985     0.9973
+ 0.9955     0.9985     0.9961     0.9967     0.9979     0.9976
+ 0.49678665]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 150000
+Application queued/processed succesfully
+Core reservation time: [0.9979     0.99436665 0.99083334 0.9967     0.9985     0.9937
+ 0.9985     0.9946     0.9985     0.9985     0.9973     0.9952
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 151000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.9961     0.9967667  0.9973     0.9964667  0.9964
+ 0.99796665 0.9961     0.9961     0.9985667  0.9985     0.99653333
+ 1.        ]
+Next application: 3
+From vehicle node: 7
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 152000
+Application queued/processed succesfully
+Core reservation time: [0.99376667 0.9979     0.9949     0.9952     0.9952667  0.9973
+ 0.9985     0.9970667  0.9928     0.9952     0.9928667  0.9946
+ 0.32461318]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 153000
+Application queued/processed succesfully
+Core reservation time: [0.9936     0.99226665 0.99053335 0.9928     0.991      0.9934
+ 0.9946     0.9946667  0.9874667  0.9946     0.9952     0.99376667
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 154000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.9982274  0.98363334 0.9970667  0.9985     0.9946
+ 0.997      0.99113333 0.9967     0.997      0.9972     0.9985
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 155000
+Application queued/processed succesfully
+Core reservation time: [0.99766666 0.997      0.997      0.9967667  0.9952     0.9955
+ 0.9985     0.99796665 0.9979     0.9935333  0.9961     0.9955
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 156000
+Application queued/processed succesfully
+Core reservation time: [0.9979    0.9952    0.9970667 0.9958    0.9946    0.9973    0.997
+ 0.9967    0.996961  0.9985    0.9955    0.9942    1.       ]
+Next application: 3
+From vehicle node: 7
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 157000
+Application queued/processed succesfully
+Core reservation time: [0.9971333  0.9955     0.9985     0.99796665 0.997      0.9952
+ 0.997      0.9892     0.9985     0.9961     0.9967667  0.9973
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 158000
+Application queued/processed succesfully
+Core reservation time: [0.9957     0.9985     0.99383336 0.9973     0.9985     0.9958
+ 0.9932333  0.9949     0.9982     0.9973     0.9982     0.9985
+ 1.        ]
+Next application: 3
+From vehicle node: 5
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 159000
+Application queued/processed succesfully
+Core reservation time: [0.9964     0.997      0.9985     0.9973     0.99586666 0.9964
+ 0.99766666 0.99436665 0.99773335 0.9985     0.9976     0.9976
+ 1.        ]
+Next application: 5
+From vehicle node: 7
+Application info: [0.         0.80851066 0.872      0.75      ]
+Delay prediction: [0.       0.       0.       0.       0.981982]
+Time step 160000
+Failed to queue/process the application
+Core reservation time: [0.9973     0.9952     0.9973     0.9985     0.9985     0.9979
+ 0.997      0.9976     0.9967667  0.99736667 0.99736667 0.997
+ 0.6285508 ]
+Next application: 5
+From vehicle node: 5
+Application info: [0.         0.80851066 0.872      0.75      ]
+Delay prediction: [0.       0.       0.       0.       0.981982]
+Time step 161000
+Application queued/processed succesfully
+Core reservation time: [0.997      0.99736667 0.9979     0.9955     0.9963     0.9967667
+ 0.9967     0.9964     0.9946667  0.9946     0.9934667  0.9964
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 162000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.9982     0.9976     0.9982     0.9985     0.99616665
+ 0.9985     0.99556667 0.9932333  0.9946     0.9913     0.9985
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 163000
+Application queued/processed succesfully
+Core reservation time: [0.99796665 0.9985     0.9967     0.997      0.9985667  0.9976
+ 0.997      0.9976     0.9967     0.9964     0.99796665 0.9967667
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 164000
+Application queued/processed succesfully
+Core reservation time: [0.9949     0.9949     0.9979     0.9985     0.9985     0.99736667
+ 0.99556667 0.9979     0.9946     0.9955     0.9952667  0.99623334
+ 0.9462158 ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 165000
+Application queued/processed succesfully
+Core reservation time: [0.9979     0.9961     0.9976     0.9967     0.9964667  0.99736667
+ 0.9976     0.9973     0.9973     0.9928667  0.9895333  0.9967
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 166000
+Application queued/processed succesfully
+Core reservation time: [0.9976     0.9985     0.99736667 0.99736667 0.99623334 0.9957
+ 0.9958     0.9955     0.9971333  0.9946     0.9979     0.99736667
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 167000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.9967667  0.99436665 0.9985     0.99196666 0.9985
+ 0.99576664 0.9985     0.9985     0.9985     0.9919     0.99443334
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 168000
+Application queued/processed succesfully
+Core reservation time: [0.99593335 0.997      0.9979     0.9975     0.99473333 0.9956333
+ 0.9970667  0.9964     0.9970667  0.99436665 0.985      0.9967
+ 0.87756604]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 169000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.9967     0.9943     0.99616665 0.9985     0.994
+ 0.9968333  0.99556667 0.99736667 0.9985     0.9979     0.994
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 170000
+Application queued/processed succesfully
+Core reservation time: [0.9973     0.9985     0.9976     0.9982     0.99616665 0.99216664
+ 0.9985     0.9985     0.9979     0.9964     0.9964     0.9964
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 171000
+Application queued/processed succesfully
+Core reservation time: [0.9976     0.9961     0.9985     0.99796665 0.9974333  0.9985
+ 0.9968333  0.9961     0.9964     0.9979     0.9949667  0.99593335
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 172000
+Application queued/processed succesfully
+Core reservation time: [0.99766666 0.9985     0.9928667  0.99413335 0.997      0.9979
+ 0.9973     0.9964     0.9985     0.99766666 0.9963     0.99413335
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 173000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.9988     0.9973     0.9979     0.9967     0.9931667
+ 0.99293333 0.9979     0.9985     0.9952     0.9958     0.9954
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 174000
+Application queued/processed succesfully
+Core reservation time: [0.9973     0.9971333  0.9985     0.98973334 0.9961     0.9985
+ 0.9985     0.9888     0.99556667 0.99196666 0.9979     0.9979
+ 1.        ]
+Next application: 3
+From vehicle node: 7
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 175000
+Application queued/processed succesfully
+Core reservation time: [0.9973     0.9973     0.9967     0.9968333  0.9982     0.9976
+ 0.99703336 0.9979     0.9970667  0.9950333  0.9852667  0.997
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 176000
+Application queued/processed succesfully
+Core reservation time: [0.9961     0.9979     0.9979     0.99623334 0.99766666 0.99293333
+ 0.99556667 0.9985     0.9916667  0.9952667  0.99766666 0.99556667
+ 1.        ]
+Next application: 5
+From vehicle node: 7
+Application info: [0.         0.80851066 0.872      0.75      ]
+Delay prediction: [0.       0.       0.       0.       0.981982]
+Time step 177000
+Application queued/processed succesfully
+Core reservation time: [0.9896333  0.9964     0.9985     0.9985     0.9955     0.9964667
+ 0.9985     0.9933     0.99833333 0.9979     0.99406666 0.9985
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 178000
+Application queued/processed succesfully
+Core reservation time: [0.99796665 0.99593335 0.9985     0.9961     0.99766666 0.9960667
+ 0.9973     0.9988     0.9967667  0.9967     0.9976     0.9985667
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 179000
+Application queued/processed succesfully
+Core reservation time: [0.9979     0.99766666 0.9964     0.9942667  0.9931667  0.9931667
+ 0.9937     0.9985     0.9985     0.99196666 0.9979     0.9985
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 180000
+Application queued/processed succesfully
+Core reservation time: [0.9964667  0.9961     0.9979     0.9985     0.99233335 0.9985
+ 0.9952     0.997      0.99293333 0.99796665 0.9973     0.9967
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 181000
+Application queued/processed succesfully
+Core reservation time: [0.9964667  0.9985     0.9964667  0.9928667  0.997      0.9964
+ 0.9961     0.9964     0.9964     0.997      0.99736667 0.9964
+ 0.975245  ]
+Next application: 6
+From vehicle node: 5
+Application info: [0.         0.89361703 0.         0.1       ]
+Delay prediction: [0.        0.        0.        0.        0.9249249]
+Time step 182000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.9937     0.9985     0.99376667 0.9985     0.9979
+ 0.9935333  0.9931667  0.9976     0.9979     0.9985     0.997
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 183000
+Application queued/processed succesfully
+Core reservation time: [0.9974333  0.9985667  0.99803334 0.9976     0.99556667 0.9913667
+ 0.9874333  0.9970667  0.99556667 0.9979     0.9973     0.9985
+ 0.43420082]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 184000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.99623334 0.9985     0.9964     0.9967     0.9985
+ 0.99383336 0.9963     0.9976     0.9967     0.99833333 0.9967
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 185000
+Application queued/processed succesfully
+Core reservation time: [0.9952     0.99256665 0.9934667  0.9985     0.99593335 0.99623334
+ 0.9985     0.9971333  0.9985     0.9985     0.997      0.997
+ 1.        ]
+Next application: 3
+From vehicle node: 6
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 186000
+Application queued/processed succesfully
+Core reservation time: [0.997      0.99736667 0.9985     0.99546665 0.9985     0.99623334
+ 0.9960667  0.99623334 0.9971333  0.9982     0.9982     0.9982
+ 0.5148256 ]
+Next application: 5
+From vehicle node: 5
+Application info: [0.         0.80851066 0.872      0.75      ]
+Delay prediction: [0.       0.       0.       0.       0.981982]
+Time step 187000
+Application queued/processed succesfully
+Core reservation time: [0.99766666 0.9973     0.99593335 0.9967     0.99766666 0.9972
+ 0.9969     0.99796665 0.9931667  0.9985     0.9956333  0.9985
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 188000
+Application queued/processed succesfully
+Core reservation time: [0.9949667  0.9979     0.9967667  0.9985     0.9950333  0.9973
+ 0.9969     0.9985     0.99076664 0.9952     0.9985     0.9979
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 189000
+Application queued/processed succesfully
+Core reservation time: [0.9976     0.9976     0.99666667 0.9976     0.9985     0.9985
+ 0.99623334 0.99593335 0.9961     0.9985     0.9954     0.9934667
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 190000
+Application queued/processed succesfully
+Core reservation time: [0.9973     0.9932333  0.9971333  0.9979     0.9976     0.9982
+ 0.9976     0.9985     0.99586666 0.99773335 0.99736667 0.9985
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 191000
+Application queued/processed succesfully
+Core reservation time: [0.9973     0.9915     0.9985     0.9973     0.9985     0.9909
+ 0.9985     0.99376667 0.99736667 0.99653333 0.9967667  0.9946
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 192000
+Application queued/processed succesfully
+Core reservation time: [0.99593335 0.9958     0.99556667 0.9973     0.9964667  0.996
+ 0.9963667  0.9985     0.9964     0.9967     0.9961     0.9970667
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 193000
+Application queued/processed succesfully
+Core reservation time: [0.9964     0.9985     0.9985     0.99766666 0.9964     0.99666667
+ 0.9979     0.9966     0.9967     0.99383336 0.9985     0.9971333
+ 1.        ]
+Next application: 5
+From vehicle node: 5
+Application info: [0.         0.80851066 0.872      0.75      ]
+Delay prediction: [0.       0.       0.       0.       0.981982]
+Time step 194000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.9949667  0.9967     0.9985     0.99773335 0.9985
+ 0.9952     0.99436665 0.9961     0.9952667  0.99523336 0.9973
+ 1.        ]
+Next application: 3
+From vehicle node: 6
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 195000
+Application queued/processed succesfully
+Core reservation time: [0.99623334 0.9985667  0.9972     0.9971333  0.9967667  0.9967
+ 0.9985     0.99916667 0.9979     0.9979     0.9985     0.9919
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 196000
+Application queued/processed succesfully
+Core reservation time: [0.9970667  0.9979     0.9949667  0.99686664 0.9958     0.99766666
+ 0.99773335 0.9973     0.9971333  0.99796665 0.99653333 0.9982
+ 0.38505036]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 197000
+Application queued/processed succesfully
+Core reservation time: [0.9961333  0.9952     0.99516666 0.9985     0.9917333  0.9979
+ 0.99773335 0.9979     0.99766666 0.9985667  0.9976     0.9976
+ 0.8313316 ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 198000
+Application queued/processed succesfully
+Core reservation time: [0.9973     0.9956     0.9883     0.997      0.99616665 0.99736667
+ 0.9985     0.9970667  0.997      0.9973     0.99263334 0.9985
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 199000
+Application queued/processed succesfully
+Core reservation time: [0.9958     0.99556667 0.9979     0.9979     0.9985667  0.9967
+ 0.9979     0.9985     0.99653333 0.99036664 0.9985     0.9964
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 200000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.99336666 0.99586666 0.9985     0.9932     0.9985
+ 0.9955     0.9985     0.9973     0.9955     0.9969     0.992
+ 0.47813582]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 201000
+Application queued/processed succesfully
+Core reservation time: [0.9946     0.9956333  0.9979     0.9952     0.99796665 0.997
+ 0.9967     0.99625105 0.988      0.9954     0.99766666 0.9964667
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 202000
+Application queued/processed succesfully
+Core reservation time: [0.99436665 0.98976666 0.99766666 0.9954     0.99556667 0.99653333
+ 0.9985     0.9985     0.997      0.9953333  0.9985     0.9923
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 203000
+Application queued/processed succesfully
+Core reservation time: [0.9964     0.9985     0.9931     0.99766666 0.99666667 0.99736667
+ 0.9964     0.9964667  0.9961     0.9946667  0.99376667 0.997
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 204000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.99736667 0.99736667 0.99593335 0.9967     0.9973
+ 0.9976     0.9982     0.9957     0.992      0.9985     0.9985
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 205000
+Application queued/processed succesfully
+Core reservation time: [0.9967     0.99736667 0.99736667 0.9961     0.9985     0.9967
+ 0.9964667  0.9979     0.99766666 0.9964     0.9985667  0.997
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 206000
+Application queued/processed succesfully
+Core reservation time: [0.9914333  0.9985     0.9955     0.9985     0.9942     0.9985
+ 0.9964     0.9964667  0.9976     0.9979     0.99796665 0.9976
+ 1.        ]
+Next application: 6
+From vehicle node: 7
+Application info: [0.         0.89361703 0.         0.1       ]
+Delay prediction: [0.        0.        0.        0.        0.9249249]
+Time step 207000
+Application queued/processed succesfully
+Core reservation time: [0.9973     0.9919     0.997      0.99616665 0.99796665 0.9967
+ 0.9985     0.9964     0.9985     0.9973     0.9931667  0.99653333
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 208000
+Failed to queue/process the application
+Core reservation time: [0.9949     0.99736667 0.9985     0.99773335 0.99796665 0.9985667
+ 0.9990871  0.9964     0.9973     0.9974333  0.9982     0.9978
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 209000
+Application queued/processed succesfully
+Core reservation time: [0.9956333  0.9985     0.9985     0.99653333 0.99796665 0.9979
+ 0.99766666 0.9934     0.9964     0.99796665 0.9966     0.99736667
+ 1.        ]
+Next application: 6
+From vehicle node: 5
+Application info: [0.         0.89361703 0.         0.1       ]
+Delay prediction: [0.        0.        0.        0.        0.9249249]
+Time step 210000
+Application queued/processed succesfully
+Core reservation time: [0.99403334 0.9970667  0.9964667  0.9964667  0.9935333  0.994
+ 0.9967     0.9985     0.99796665 0.9982     0.9985667  0.9973
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 211000
+Application queued/processed succesfully
+Core reservation time: [0.9961     0.9948     0.9979     0.9970667  0.9976     0.9985
+ 0.9970667  0.9971333  0.99736667 0.9985     0.99616665 0.9985
+ 1.        ]
+Next application: 3
+From vehicle node: 7
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 212000
+Application queued/processed succesfully
+Core reservation time: [0.997      0.9985     0.99196666 0.99653333 0.9952     0.99766666
+ 0.9985     0.99616665 0.99556667 0.9952667  0.9985     0.9958
+ 1.        ]
+Next application: 4
+From vehicle node: 5
+Application info: [0.        0.9787234 0.8       1.       ]
+Delay prediction: [0.8328133 0.8331467 0.8323967 0.8323967 0.9984985]
+Time step 213000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.98866665 0.9985     0.99413335 0.9973     0.9985
+ 0.9982     0.99653333 0.99736667 0.9982     0.9973     0.9982
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 214000
+Application queued/processed succesfully
+Core reservation time: [0.9976     0.9976     0.9979     0.9982     0.9985     0.99383336
+ 0.9923     0.9985     0.9982     0.9982     0.9982     0.9988
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 215000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.9948     0.9985     0.99436665 0.9985     0.99586666
+ 0.9952667  0.99586666 0.9952667  0.9961     0.9979     0.9970667
+ 1.        ]
+Next application: 3
+From vehicle node: 6
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 216000
+Application queued/processed succesfully
+Core reservation time: [0.9963667  0.99736667 0.9978     0.9976     0.9928667  0.99406666
+ 0.9935333  0.9985     0.99616665 0.9928     0.9942     0.9967
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 217000
+Application queued/processed succesfully
+Core reservation time: [0.9967667  0.9973     0.99736667 0.9968333  0.9985     0.9937
+ 0.99773335 0.99556667 0.9985     0.9964     0.9973     0.99546665
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 218000
+Application queued/processed succesfully
+Core reservation time: [0.99586666 0.99766666 0.9957     0.9973     0.9961     0.997
+ 0.9985     0.9979     0.9956333  0.9985     0.99796665 0.99736667
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 219000
+Application queued/processed succesfully
+Core reservation time: [0.99766666 0.9973     0.9949     0.9955     0.9973     0.9964
+ 0.9961     0.9979     0.9949667  0.9972     0.9961     0.9985
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 220000
+Application queued/processed succesfully
+Core reservation time: [0.9961     0.9973     0.9985     0.99736667 0.9979     0.9967667
+ 0.9973     0.9955     0.9955     0.9964667  0.997      0.9913667
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 221000
+Application queued/processed succesfully
+Core reservation time: [0.9973     0.9955     0.9964     0.9967     0.9985     0.9931
+ 0.9953333  0.9985     0.9934     0.9922     0.9961     0.99186665
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 222000
+Application queued/processed succesfully
+Core reservation time: [0.9895     0.9979     0.9985     0.99586666 0.9955     0.9985
+ 0.9956333  0.9964     0.9985667  0.997      0.9964     0.9979
+ 1.        ]
+Next application: 5
+From vehicle node: 6
+Application info: [0.         0.80851066 0.872      0.75      ]
+Delay prediction: [0.       0.       0.       0.       0.981982]
+Time step 223000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.9967667  0.99473333 0.9967667  0.9982     0.9985667
+ 0.99796665 0.9982     0.9985     0.9973     0.9952     0.9949
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 224000
+Application queued/processed succesfully
+Core reservation time: [0.9953333  0.9985     0.99556667 0.9985     1.         0.9994
+ 0.9985     1.         0.99406666 0.99556667 0.9967667  0.9985
+ 1.        ]
+Next application: 6
+From vehicle node: 6
+Application info: [0.         0.89361703 0.         0.1       ]
+Delay prediction: [0.        0.        0.        0.        0.9249249]
+Time step 225000
+Application queued/processed succesfully
+Core reservation time: [0.99766666 0.9931     0.9985     0.9979     0.99653333 0.99773335
+ 0.9939     0.9967     0.9978     0.99703336 0.9985     0.9976
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 226000
+Application queued/processed succesfully
+Core reservation time: [0.997      0.9964     0.9921     0.99293333 0.9958     0.9963
+ 0.9979     0.9979     0.99916667 0.9988     0.9968     0.9986333
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 227000
+Application queued/processed succesfully
+Core reservation time: [0.9868     0.9952     0.9903     0.9934667  0.9949667  0.9985
+ 0.99406666 0.99583334 0.9985     0.9979     0.99796665 0.997
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 228000
+Application queued/processed succesfully
+Core reservation time: [0.9973     0.9928     0.997      0.9979     0.99773335 0.9980372
+ 0.9932     0.99833333 0.9967     0.9973     0.99623334 0.997
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 229000
+Application queued/processed succesfully
+Core reservation time: [0.99736667 0.99796665 0.9973     0.9973     0.997      0.99653333
+ 0.9985     0.9965     0.99796665 0.9968333  0.9955     0.9967
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 230000
+Application queued/processed succesfully
+Core reservation time: [0.9967     0.9946     0.9979     0.99556667 0.9942     0.9985
+ 0.99263334 0.9963     0.9913     0.99436665 0.9985     0.9985
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 231000
+Application queued/processed succesfully
+Core reservation time: [0.9970667  0.99736667 0.9970667  0.9964     0.9971333  0.99653333
+ 0.99736667 0.9961     0.98903334 0.9985     0.9964667  0.99756664
+ 0.35633996]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 232000
+Application queued/processed succesfully
+Core reservation time: [0.9945667  0.9910667  0.9985     0.9985     0.9964667  0.99083334
+ 0.9969     0.99833333 0.9979     0.9888667  0.9952     0.9969
+ 1.        ]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 233000
+Application queued/processed succesfully
+Core reservation time: [0.99773335 0.9985     0.9949     0.9918148  0.9939333  0.9952
+ 0.99293333 0.99633336 0.99436665 0.9985     0.9973     0.9964667
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 234000
+Application queued/processed succesfully
+Core reservation time: [0.99383336 0.9979     0.9952667  0.9952     0.99306667 0.9970667
+ 0.9979     0.9842333  0.9985667  0.9979     0.9964     0.9967
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 235000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.9913667  0.9928     0.9945     0.99413335 0.9971333
+ 0.9971333  0.9952667  0.9979     0.9979     0.9904     0.9985
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 236000
+Application queued/processed succesfully
+Core reservation time: [0.9967667  0.9973     0.9979     0.99046665 0.9948     0.99696666
+ 0.99653333 0.9949667  0.9961     0.9971333  0.99616665 0.9954
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 237000
+Application queued/processed succesfully
+Core reservation time: [0.9958     0.9952     0.99756664 0.9979     0.9985     0.99696666
+ 0.99376667 0.9949333  0.9985     0.9945667  0.9961     0.9970667
+ 0.92539835]
+Next application: 6
+From vehicle node: 7
+Application info: [0.         0.89361703 0.         0.1       ]
+Delay prediction: [0.        0.        0.        0.        0.9249249]
+Time step 238000
+Application queued/processed succesfully
+Core reservation time: [0.9971333  0.99616665 0.9979     0.9985     0.9952667  0.9951
+ 0.9921     0.9939     0.997      0.9928     0.9979     0.99766666
+ 1.        ]
+Next application: 6
+From vehicle node: 6
+Application info: [0.         0.89361703 0.         0.1       ]
+Delay prediction: [0.        0.        0.        0.        0.9249249]
+Time step 239000
+Application queued/processed succesfully
+Core reservation time: [0.99766666 0.9988     0.9979     0.99773335 0.9970667  0.9917
+ 0.99623334 0.9942667  0.9979     0.9946     0.9942667  0.9985
+ 1.        ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 240000
+Application queued/processed succesfully
+Core reservation time: [0.9973     0.9964667  0.99796665 0.9943     0.99586666 0.9967
+ 0.99376667 0.994      0.9946667  0.9949     0.997      0.9964
+ 0.93173796]
+Next application: 1
+From vehicle node: 5
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.36007777 0.3582861  0.3582861  0.990991  ]
+Time step 241000
+Application queued/processed succesfully
+Core reservation time: [0.9976     0.9985     0.9976     0.9985     0.99766666 0.98903334
+ 0.9964667  0.9934     0.9985     0.9985     0.997      0.9874
+ 1.        ]
+Next application: 2
+From vehicle node: 6
+Application info: [0.         0.23404256 0.8        0.05      ]
+Delay prediction: [0. 0. 0. 0. 0.]
+Time step 242000
+Application queued/processed succesfully
+Core reservation time: [0.9982    0.9988    0.9982    0.9985667 0.9976    0.9985    0.9967667
+ 0.9974333 0.9960667 0.9964    0.9968333 0.9985    1.       ]
+Next application: 6
+From vehicle node: 6
+Application info: [0.         0.89361703 0.         0.1       ]
+Delay prediction: [0.        0.        0.        0.        0.9249249]
+Time step 243000
+Application queued/processed succesfully
+Core reservation time: [0.99653333 0.99616665 0.99916667 0.9985     0.99653333 0.9971333
+ 0.9945     0.99593335 0.9974333  0.9976     0.99736667 0.9967
+ 1.        ]
+Next application: 3
+From vehicle node: 7
+Application info: [0.  0.  0.2 0.5]
+Delay prediction: [0.        0.        0.        0.        0.8588589]
+Time step 244000
+Application queued/processed succesfully
+Core reservation time: [0.99443334 0.9985667  0.9961     0.99473333 0.9985     0.9975
+ 0.9973     0.9915     0.9966     0.997      0.997      0.997
+ 0.5740907 ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 245000
+Application queued/processed succesfully
+Core reservation time: [0.9985     0.9961     0.9943     0.99753964 0.97863334 0.9985
+ 0.9985     0.9924     0.9985667  0.9994     0.99916667 0.9994
+ 0.93846   ]
+Next application: 1
+From vehicle node: 6
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.36007777 0.3582861  0.990991  ]
+Time step 246000
+Application queued/processed succesfully
+Core reservation time: [0.9946    0.9985    0.9942    0.9928667 0.9985    0.9866    0.9924667
+ 0.9945667 0.9976    0.9985    0.9979    0.9976    1.       ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time step 247000
+Application queued/processed succesfully
+Core reservation time: [0.9946     0.99586666 0.9973     0.9916667  0.9979     0.99766666
+ 0.9852333  0.996      0.9967     0.99436665 0.99556667 0.9931
+ 0.6700334 ]
+Next application: 6
+From vehicle node: 7
+Application info: [0.         0.89361703 0.         0.1       ]
+Delay prediction: [0.        0.        0.        0.        0.9249249]
+Time step 248000
+Application queued/processed succesfully
+Core reservation time: [0.9909667  0.9834667  0.997      0.99383336 0.99263334 0.9956333
+ 0.996      0.9933     0.9932     0.9979     0.9979     0.99053335
+ 1.        ]
+Next application: 1
+From vehicle node: 7
+Application info: [0.        0.9234043 0.8       0.6      ]
+Delay prediction: [0.35943195 0.3582861  0.3582861  0.36007777 0.990991  ]
+Time ste
