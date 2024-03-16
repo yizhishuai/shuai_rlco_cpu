@@ -84,7 +84,7 @@ def train_scenario(env, agents):
     start_up = 1000
 
 # !!!!!!!!!
-    n_time_steps = 100000 # For 10^-3 precision -> ~10^5 sample points
+    n_time_steps = 300000 # For 10^-3 precision -> ~10^5 sample points
     # Number of last episodes to use for average reward calculation
     averaging_window = 10000
     x_axis = range(1, start_up+n_time_steps+1) # X axis for ploting results
@@ -514,7 +514,7 @@ if(__name__ == "__main__"):
     # print(env.observation_space.low)
     # print(env.observation_space.low.size)
     # Algorithms to be used
-    alg = ['DQN','PS-TIMEDOUBLEIQNNOISY','PPO']
+    alg = ['DQN','PS-TIMEDOUBLEIQNNOISY','D_D_Q_N']
     # alg = ['NSQ2','NSQ5','NSQ10']
     # alg = ['A3C']
     # alg = ['DQN','DDQN','NSQ10','PPO']
@@ -554,5 +554,5 @@ if(__name__ == "__main__"):
     
     ## Train and test
     train_scenario(env, agents)
-    # test_scenario(env, agents)
+    test_scenario(env, agents)
 

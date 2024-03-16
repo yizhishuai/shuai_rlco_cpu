@@ -269,7 +269,7 @@ def create_agent(
         # Agent (DDQN)
         agent = chainerrl.agents.DoubleDQN(
                 q_func, opt, replay_buffer, gamma, explorer,
-                replay_start_size=100000, target_update_interval=50000)
+                replay_start_size=80000, target_update_interval=30000)
         
         return agent, agent_info, q_func, opt, explorer, replay_buffer
     elif(alg in 'DQN'):
@@ -280,7 +280,7 @@ def create_agent(
         opt.setup(q_func)
         # Exploration & agent info
         if(exp_type in 'constant'):
-            agent_info = ('正常的DQN - ' + 'Constant ' + chr(949) + '=' +
+            agent_info = ('DQN - ' + 'Constant ' + chr(949) + '=' +
                           str(epsilon) + ' (' + chr(947) + '=' + str(gamma) +
                           ')')
             explorer = chainerrl.explorers.ConstantEpsilonGreedy(
@@ -306,8 +306,8 @@ def create_agent(
         
         # Agent (DQN)
         agent = chainerrl.agents.DQN(q_function=q_func, optimizer=opt, replay_buffer=replay_buffer, gamma=gamma, explorer=explorer, 
-                gpu=None, replay_start_size=200000, 
-                update_interval=1, target_update_interval=5000)
+                gpu=None, replay_start_size=80000, 
+                update_interval=1, target_update_interval=30000)
         
         return agent, agent_info, q_func, opt, explorer, replay_buffer
     elif(alg in 'PS-DDQN'):
@@ -881,8 +881,8 @@ def create_agent(
 
         agent = chainerrl.agents.DoubleIQN(
             q_func, opt, replay_buffer, gpu=None, gamma=gamma,
-            explorer=explorer, replay_start_size=20000,
-            target_update_interval=50000,
+            explorer=explorer, replay_start_size=80000,
+            target_update_interval=30000,
             update_interval=1,
             minibatch_size=32
         )
